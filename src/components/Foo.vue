@@ -1,6 +1,7 @@
 <template>
-<p>
-  This is foo: {{fooMsg}}!</p>
+  <div class="foo">
+    <h1>{{ fooMsg }}</h1>
+  </div>
 </template>
 
 <script>
