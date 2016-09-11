@@ -1,5 +1,13 @@
 <template>
 <div id="app">
+  <p>
+    <!-- use v-link directive for navigation. -->
+    <a v-link="{ path: '/foo' }">Go to Foo</a>
+    <a v-link="{ path: '/' }">Go to Hello</a>
+    <a v-link="{ path: '/home' }">Go to Home</a>
+    <a v-link="{ path: '/room' }">Go to Room</a>
+    <a v-link="{ path: '/jew' }">Go to Jew</a>
+  </p>
   <img class="logo" src="./assets/logo.png">
 <router-view></router-view>
   <p>
