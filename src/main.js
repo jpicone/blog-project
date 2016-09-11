@@ -20,6 +20,17 @@ router.map({
   },
   '/home': {
     component: Home
+  },
+  '/room': {
+    component: Room
+  },
+  '/jew': {
+    component: Jew,
+    subRoutes: {
+      '/room': {
+        component: Room
+      }
+    }
   }
 })
 
